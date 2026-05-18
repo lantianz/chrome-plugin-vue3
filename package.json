@@ -2,6 +2,7 @@
   "name": "chrome-plugin-vue3",
   "version": "1.0.1",
   "description": "Chrome Extension Template - Vue3 + Vite",
+  "packageManager": "pnpm@9.6.0",
   "type": "module",
   "scripts": {
     "dev": "vite",
@@ -41,6 +42,7 @@
     "vite": "^6.3.5"
   },
   "volta": {
-    "node": "20.19.6"
+    "node": "20.19.6",
+    "npm": "10.8.2"
   }
 }
