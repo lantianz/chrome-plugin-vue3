@@ -22,6 +22,13 @@ npm run bv -- 1.0.0
 npm run bv:zip -- 1.0.0
 ```
 
+`npm run bv:dev` 会在开发包的 `manifest.json` 中自动追加开发标识：
+
+- 扩展名称追加 ` [DEV]`
+- `version_name` 显示为 `<当前版本>-dev`
+
+这样浏览器里可以和正式版直接区分。
+
 ## 构建产物规则
 
 - 普通版本化构建输出目录固定为 `output/chrome-plugin-vue3`
