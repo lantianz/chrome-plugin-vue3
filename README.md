@@ -64,7 +64,7 @@ docs/
 
 ## 发布流程
 
-1. 更新 [CHANGELOG.md](C:/Users/lantianzhi/Desktop/test/lantz-static-test/chrome-plugin-vue3/CHANGELOG.md)
+1. 更新 [CHANGELOG.md](./CHANGELOG.md)
 2. 本地验证 `npm run bv -- 1.0.0`
 3. 正式打包执行 `npm run bv:zip -- 1.0.0`
 4. 提交代码并推送
@@ -94,6 +94,6 @@ git push origin 1.0.0
 
 ## 相关文档
 
-- [快速开始](C:/Users/lantianzhi/Desktop/test/lantz-static-test/chrome-plugin-vue3/docs/SETUP.md)
-- [版本化构建说明](C:/Users/lantianzhi/Desktop/test/lantz-static-test/chrome-plugin-vue3/docs/BUILD_VERSION.md)
+- [快速开始](./docs/SETUP.md)
+- [版本化构建说明](./docs/BUILD_VERSION.md)
 - [Chrome 扩展开发文档](https://developer.chrome.com/docs/extensions/)
